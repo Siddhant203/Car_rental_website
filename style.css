@@ -1,0 +1,334 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+body{
+    background-image: url(background/car-bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header{
+    width:100%;
+    height:30px;
+    background-color: rgba(0,0,0,0.5);
+    display: inline-block;
+    text-decoration: none;
+    position: fixed;
+    border-radius: 1rem;
+    z-index: 100;
+    margin-right: 10px;
+}
+
+#logo{
+    width: 150px;
+    height: 80px;
+    border-radius: 1rem ;
+    position: relative;
+    padding-left: 20px;
+}
+
+.navbar{
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 1rem ;
+    color: rgb(208, 242, 231);
+}
+
+.navbar ul{
+    float:right;
+    padding-right: 20px;
+}
+
+.navbar ul li{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    display: inline-block;
+    position:relative;
+    text-decoration: none;
+}
+a{
+    color: lightskyblue; 
+}
+
+.slideshow{
+    width: 1500px;
+    height: 750px;
+    border-radius: 25px ;
+    position:static;
+    margin: 10px, 0px, 0px,10px ;
+}
+
+.blank{
+    width: 1000px;
+    height: 300px;
+}
+
+.car_type{
+    background-color:#0C0C0C ;
+    height: fit-content;
+    width: fit-content;
+}
+#Luxury{
+    background-color: #3e352fdc;
+    border: 4px outset #2f2824;
+    width: 32%;
+    height: 300px;
+    margin: 3px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 2rem 2rem 2rem ;
+    text-align: center  ;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+}
+
+#Premium{
+    background-color: #28252adb;
+    border: 4px outset #232025;
+    width: 32%;
+    height: 300px;
+    margin: 3px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 2rem 2rem 2rem ;
+    text-align: center  ;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+}
+
+#Normal{
+    background-color: #1e1d1adc;
+    border: 4px outset #23211e;
+    width: 32%;
+    height: 300px;
+    margin: 3px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 2rem 2rem 2rem ;
+    text-align: center  ;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+}
+
+h3{
+    background-color: #2c2e2f;
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+    color: moccasin;
+}
+
+.click{
+    height: 5px;
+    width: 7px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #805244;
+}
+
+.outer_midnav{
+    background-color: #2c2e2fdf;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+    width: 950px;
+    height: 110px;
+    justify-self: center;
+    
+}
+.midnav{
+    position: sticky;
+    display: flex;
+    
+}
+#click{
+    height: 22px;
+    width: 70px;
+    margin: 7px;
+    justify-content: center;
+    
+}
+.head{
+    height: fit-content;
+}
+.dropdown-container{
+    display: inline-block; 
+    margin: 10px;  
+    position:relative;
+    
+}
+
+.dropdown-trigger{
+    padding: 5px;
+    background-color: #60554b ;
+    position:sticky;
+    display:inline-block;
+    border-radius: 15px;
+    color: moccasin;
+}
+.dropdown-item{
+    background-color: #eb9e92f3;
+    width:fit-content;
+    display:none;
+    
+    position: inherit;
+}
+.dropdown-trigger:hover{
+    background-color: #541507;
+    
+}
+.dropdown-container:hover .dropdown-item{
+    display:block;
+    
+}
+.item{
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.item:hover{
+    background-color: lightgrey;
+    transform: scale(0.9);
+}
+
+.div_image{
+    width: 95%;
+    height:200px;
+    padding-top: 3px;
+    border-radius: 2rem;
+    
+}
+
+.steps{
+    background-color:#2c2e2fdf;
+    border: 5px outset #252728;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+    color: grey;
+}
+.steps1{
+    height: 200px;
+    width: 300px;
+    background-color: #3e352fdc;
+    border: 3px outset #2f2824;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px ;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+}
+
+.testimonial{
+    height: 300px;
+    background-color:#2c2e2fdf;
+    border: 5px outset #252728;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+    color: grey;
+}
+.testimonial_div{
+    height: 200px;
+    width: 300px;
+    background-color: #3e352fdc;
+    border: 3px outset #2f2824;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px ;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+}
+
+.blog{
+    background-color: #2c2e2fdf;
+    border: 5px outset #252728;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    color: grey;
+}
+.news{
+    height: 200px;
+    width: 300px;
+    background-color: #3e352fdc;
+    border: 3px outset #2f2824;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+    margin-left: 10px ;
+}
+
+footer{
+    background-color: #141e30e7;
+    color: lightgray;
+    border-radius: 10px;
+    height: fit-content;
+    margin-top:20px ;
+    padding-bottom: 5px;
+}
+.car_brand_logo{
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-bottom: 30px;
+    border-color: solid rgba(46, 45, 45, 0.7);
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    width: 150px;
+    padding: 5px;
+}
+
+.info{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.brand_slogan{
+    position: relative;
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    background-color: #28252adb;
+    border: 3px outset #232025;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+    border-radius: 10px;
+    text-align: center;
+    top: 0px;
+    left: 50px;
+}
+.quick_links{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    background-color: #28252adb;
+    border: 3px outset #232025;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    top: 74px;
+    left: 65px;
+}
+.subscribe{
+    position: relative;
+    height: 200px;
+    width: 300px;
+    background-color: #28252adb;
+    border: 3px outset #232025;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    top: 36px;
+    left: 78px;
+}
+

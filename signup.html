@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="outerbody">
+
+        <div class="image">
+            <a id="back" href="index.html"><i class="fa-solid fa-house"></i>back to home </a>
+            <img class="view" src="sand-dune.jpg" alt="image">
+        </div>
+        <div class="details">
+            
+            <form onsubmit="return authenticate()">
+                
+                <h1>Create an account</h1> 
+                <span>Already have account?<a href="login.html">login</a></span><br><br>
+                <input class="uname" required type="text" placeholder="First name">
+                <input class="uname" required type="text" placeholder="Last name"><br>
+                <input class="dob" required type="date" placeholder="D-O-B"><br>
+                <input id="email" required type="email" placeholder="Email"><br>
+                <input class="upass" required minlength="5" type="password" placeholder="Password"><br>
+                <input class="upass" required minlength="5" type="password" placeholder="Confirm Password"><br>
+                <input class="check" type="checkbox">I agree to the <a href="">Terms & Condition</a><br><br><br>
+                <button>Create your account</button>
+            </form>
+        </div>
+    </div>
+        
+    <script>
+        unameObj=document.getElementsByClassName("uname")
+        upassObj=document.getElementById("upass")
+
+        function authenticate(){
+            if(unameObj.value=="car123" && upassObj.value=="rental"){
+                location.href="index.html";
+                return false
+            }
+            else{
+                alert("invalid credentials")
+                return false
+            }
+        }
+    </script>
+
+</body>
+</html>
